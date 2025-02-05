@@ -1,0 +1,61 @@
+body {
+  background-color: #f1eeb8;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+section {
+  margin: 20px;
+}
+
+#tabla-datos {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+#tabla-datos th, #tabla-datos td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+tbody {
+  display: block; 
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%
+}
+thead, tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+#resultado {
+  margin-top: 20px;
+}
+
+canvas {
+  max-height: 400px;
+}
+
+#formulario-estimacion {
+  margin-top: 20px;
+}
+
+#formulario-estimacion .btn {
+  margin-top: 10px;
+}
+
+#imagen {
+  display: flex;
+  justify-content: center;
+}

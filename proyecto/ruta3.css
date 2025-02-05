@@ -1,0 +1,52 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: white;
+    color: black;
+}
+
+.contenedor-tabla {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    th, td {
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    th, td {
+        padding: 4px;
+        font-size: 0.8rem;
+    }
+}
+#copy {
+    color: rgb(219, 97, 27);
+    font-size: 1.1em;
+    text-align: center;
+}
+#titulo2 {
+    display:block;
+    border: 3px solid black;
+    background-color: #2a3746 ;
+    color: white;
+    text-align: center;
+}
+

@@ -1,0 +1,36 @@
+
+#parrafo1, #parrafo2 {
+    display: block;
+    border: 3px solid black;
+    background-color: white;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#imagen1 {
+    display: block;
+    border: 3px solid black;
+}
+
+#copy2 {
+    color: rgb(219, 97, 27);
+    font-size: 1.1em;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #parrafo1, #parrafo2 {
+        font-size: 1em;
+        padding: 8px;
+    }
+    #imagen1 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #parrafo1, #parrafo2 {
+        font-size: 0.9em;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,41 @@
+/* ruta3.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: white;
+    color: black;
+}
+
+.contenedor-tabla {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    th, td {
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    th, td {
+        padding: 4px;
+        font-size: 0.8rem;
+    }
+}

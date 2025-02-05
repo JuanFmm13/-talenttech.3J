@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightskyblue;
+}
+
+header {
+    color:  rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#titulo1 {
+    display: block;
+    border: 3px solid black;
+    background-color: #2a3746 ;
+    color: white;
+}
+
+
+#titulo2 {
+    display:block;
+    border: 3px solid black;
+    background-color: #2a3746 ;
+    color: white;
+}
